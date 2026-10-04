@@ -21,9 +21,7 @@ def get_twilio_client():
     return TwilioClient(TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN)
 
 
-twilio_client=get_twilio_client()
-gemini_client=get_gemini_client()
-MODEL_NAME="gemini-3.8-flash"
+MODEL_NAME="gemini-2.0-flash"
 
 def clean_whatsapp_text(text):
     if not text:
@@ -35,7 +33,7 @@ def send_whatsapp(to_number, user_name, summary):
         content_variables = json.dumps(
             {"1": user_name, "2": clean_whatsapp_text(summary)}, ensure_ascii=False
         )
-        message = twilio_client.messages.create(
+        message = get_twilio_client().messages.create(
             from_=TWILIO_WHATSAPP_FROM,
             to=f"whatsapp:{to_number}",
             content_sid=TWILIO_CONTENT_SID,
@@ -82,7 +80,7 @@ if 'onboarded' not in st.session_state:
             st.session_state.name=name.strip()
             st.session_state.whatsapp_number=whatsapp_number.strip()
             #activate my ai
-            st.session_state.chat = gemini_client.chats.create(
+            st.session_state.chat = get_gemini_client().chats.create(
                 model=MODEL_NAME,
                 config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
             )
