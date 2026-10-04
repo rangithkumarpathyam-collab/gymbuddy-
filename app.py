@@ -21,7 +21,7 @@ def get_twilio_client():
     return TwilioClient(TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN)
 
 
-MODEL_NAME="gemini-2.0-flash"
+MODEL_NAME="gemini-3.8-flash"
 
 def clean_whatsapp_text(text):
     if not text:
