@@ -1,0 +1,175 @@
+﻿
+============================================================
+SCREEN: Loading ù Sending WhatsApp report
+============================================================
+[FRAME] Loading ù Sending WhatsApp report 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x676
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Loading ù Calculating macros
+============================================================
+[FRAME] Loading ù Calculating macros 400x924 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x716
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Loading ù AI analyzing nutrition
+============================================================
+[FRAME] Loading ù AI analyzing nutrition 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x676
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Loading ù Scanning meal
+============================================================
+[FRAME] Loading ù Scanning meal 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x676
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Empty ù No meal history
+============================================================
+[FRAME] Empty ù No meal history 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x676
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Empty ù No progress data
+============================================================
+[FRAME] Empty ù No progress data 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x676
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Empty ù No meals logged
+============================================================
+[FRAME] Empty ù No meals logged 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x676
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Profile
+============================================================
+[FRAME] Profile 400x1169 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x961
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: AI Chat
+============================================================
+[FRAME] AI Chat 400x1084 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x876
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: WhatsApp Summary
+============================================================
+[FRAME] WhatsApp Summary 400x1087 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x879
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Meal History
+============================================================
+[FRAME] Meal History 400x1151 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x943
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Progress
+============================================================
+[FRAME] Progress 400x1438 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x1230
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Daily Nutrition
+============================================================
+[FRAME] Daily Nutrition 400x1366 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x1158
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Text Logging
+============================================================
+[FRAME] Text Logging 400x1069 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x861
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Meal Analysis
+============================================================
+[FRAME] Meal Analysis 400x1254 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x1046
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: AI Meal Scanner
+============================================================
+[FRAME] AI Meal Scanner 400x1029 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x821
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Home
+============================================================
+[FRAME] Home 400x1104 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] Screen content 400x972
+  [FRAME] Bottom navigation 400x88
+
+============================================================
+SCREEN: Onboarding
+============================================================
+[FRAME] Onboarding 400x1086 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] App header 400x76
+  [FRAME] Screen content 400x966
+
+============================================================
+SCREEN: Splash
+============================================================
+[FRAME] Splash 400x884 #050505
+  [FRAME] Android status bar 400x44
+  [FRAME] Brand stage 400x748
+  [FRAME] Startup indicator 400x35
+
+
+=== FULL COLOR PALETTE ===
+  #050505  rgba(5,5,5,1.0)
+  #303036  rgba(48,48,54,1.0)
+
+=== ALL TEXT STYLES ===

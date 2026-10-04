@@ -1,0 +1,29 @@
+services:
+  # 1. Streamlit Python Web Service
+  - type: web
+    name: gymbuddy-streamlit
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app.py --server.port $PORT --server.address 0.0.0.0"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_WHATSAPP_FROM
+        value: "+17372508034"
+      - key: TWILIO_CONTENT_SID
+        value: "HXac51c61af94371da7904a767b414c2fc"
+
+  # 2. Flutter Mobile & Web App Service
+  - type: web
+    name: gymbuddy-app
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8080

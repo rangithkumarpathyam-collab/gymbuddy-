@@ -1,0 +1,913 @@
+=== Loading — Sending WhatsApp report ===
+[FRAME] Loading — Sending WhatsApp report 400x884
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 112x12 -> "WhatsApp summary"
+      [TEXT] Screen title 316x31 -> "Sending your report"
+  [FRAME] Screen content 400x676
+    [FRAME] Sending motion stage 352x320
+      [FRAME] Report delivery motion concept 280x180
+        [FRAME] WhatsApp destination 52x52
+          [FRAME] message-circle 28x28
+            [VECTOR] Vector 23x23
+        [ELLIPSE] Delivery particle — translate 6x6
+        [VECTOR] Delivery path — particle travel 72x16
+        [FRAME] Report sheet — lift and slide 136x152
+          [TEXT] Report wordmark 71x15 -> "GYMBUDDY"
+          [TEXT] Report calories 68x44 -> "760"
+          [RECTANGLE] Report line 88x1
+          [RECTANGLE] Report line 64x1
+      [TEXT] Overline 114x12 -> "Securely on its way"
+    [TEXT] Sending title 352x31 -> "Your day. Delivered."
+    [TEXT] Supporting text 352x21 -> "Sending your nutrition summary to +91 98765 43210."
+    [FRAME] Delivery progress 352x30
+      [FRAME] Progress track 352x4
+        [RECTANGLE] Progress fill 282x4
+      [FRAME] Delivery stages 352x12
+        [TEXT] Complete stage 90x12 -> "✓ Report prepared"
+        [TEXT] Current stage 127x12 -> "Connecting to WhatsApp…"
+    [TEXT] Supporting text 352x36 -> "Please don’t send again. We’ll confirm when your report is delivered."
+    [FRAME] Secondary button 352x56
+      [FRAME] loader-circle 20x20
+        [VECTOR] Vector 15x15
+      [TEXT] Label 161x17 -> "Sending to WhatsApp…"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 29x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Loading — Calculating macros ===
+[FRAME] Loading — Calculating macros 400x924
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 123x12 -> "Precision in progress"
+      [TEXT] Screen title 316x31 -> "Calculating macros"
+  [FRAME] Screen content 400x716
+    [FRAME] Calculation motion stage 352x300
+      [FRAME] Macro orbit — rotating segments 196x196
+        [ELLIPSE] Calculation particle — circular travel 6x6
+        [ELLIPSE] Inner orbit — pulse 160x160
+        [FRAME] Progress ring 196x196
+          [FRAME] Ring label 196x196
+            [TEXT] Value 58x34 -> "72%"
+            [TEXT] Unit 51x12 -> "calculating"
+          [ELLIPSE] Ring track 196x196
+          [VECTOR] Ring progress 189x191
+      [TEXT] Overline 135x12 -> "Balancing the numbers"
+    [TEXT] Processing title 352x31 -> "Every gram matters."
+    [TEXT] Supporting text 352x42 -> "Adding up calories, protein, carbs, and fats for your meal."
+    [FRAME] Macro skeleton cards 352x101
+      [FRAME] Macro placeholder 112x101
+        [TEXT] Nutrient 37x13 -> "Protein"
+        [RECTANGLE] Value skeleton — shimmer 56x24
+        [FRAME] Progress track 80x4
+          [RECTANGLE] Progress fill 32x4
+      [FRAME] Macro placeholder 112x101
+        [TEXT] Nutrient 31x13 -> "Carbs"
+        [RECTANGLE] Value skeleton — shimmer 56x24
+        [FRAME] Progress track 80x4
+          [RECTANGLE] Progress fill 48x4
+      [FRAME] Macro placeholder 112x101
+        [TEXT] Nutrient 23x13 -> "Fats"
+        [RECTANGLE] Value skeleton — shimmer 56x24
+        [FRAME] Progress track 80x4
+          [RECTANGLE] Progress fill 64x4
+    [TEXT] Supporting text 352x18 -> "Your meal stays saved while we finish the estimate."
+    [FRAME] Secondary button 352x56
+      [TEXT] Label 129x17 -> "Cancel Calculation"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Loading — AI analyzing nutrition ===
+[FRAME] Loading — AI analyzing nutrition 400x884
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 133x12 -> "GymBuddy intelligence"
+      [TEXT] Screen title 316x31 -> "AI analyzing nutrition"
+  [FRAME] Screen content 400x676
+    [FRAME] Analysis motion stage 352x328
+      [FRAME] Neural orbit motion concept 224x224
+        [ELLIPSE] Particle — orbit travel 5x5
+        [ELLIPSE] Particle — orbit travel 5x5
+        [ELLIPSE] Particle — orbit travel 7x7
+        [FRAME] Core — breathing glow 112x112
+          [FRAME] sparkles 36x36
+            [VECTOR] Vector 30x30
+        [ELLIPSE] Inner orbit — counter rotating 176x176
+        [ELLIPSE] Outer orbit — rotating 224x224
+      [TEXT] Overline 225x12 -> "Your words, translated into nutrition"
+    [TEXT] Processing message 352x31 -> "Making sense of your meal."
+    [TEXT] Supporting text 352x42 -> "Matching foods to nutritional data and refining serving sizes. This usually takes a few seconds."
+    [FRAME] Analysis progress 352x28
+      [FRAME] Progress track 352x4
+        [RECTANGLE] Progress fill 183x4
+      [FRAME] Phase labels 352x12
+        [TEXT] Completed phase 88x12 -> "✓ Foods identified"
+        [TEXT] Current phase 100x12 -> "Estimating portions…"
+    [FRAME] Secondary button 352x56
+      [TEXT] Label 110x17 -> "Cancel Analysis"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Loading — Scanning meal ===
+[FRAME] Loading — Scanning meal 400x884
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 92x12 -> "AI meal scanner"
+      [TEXT] Screen title 316x31 -> "Scanning meal"
+  [FRAME] Screen content 400x676
+    [FRAME] Scanning preview 352x344
+      [FRAME] Detected ingredient 100x28
+        [TEXT] Recognition label 84x12 -> "RICE · DETECTED"
+      [FRAME] Detected ingredient 122x28
+        [TEXT] Recognition label 106x12 -> "CHICKEN · DETECTED"
+      [RECTANGLE] Scanning beam — vertical sweep 272x2
+      [RECTANGLE] Scanning glow — vertical sweep 272x48
+      [VECTOR] Recognition boundary — pulse outline 272x248
+    [FRAME] Scan progress 352x93
+      [FRAME] Progress status 352x15
+        [TEXT] Overline 139x12 -> "Finding every ingredient"
+        [TEXT] Progress percentage 25x15 -> "62%"
+      [FRAME] Progress track 352x4
+        [RECTANGLE] Progress fill 218x4
+      [TEXT] Supporting text 352x42 -> "Looking at your plate, identifying foods, and estimating portions."
+    [FRAME] Processing stages 352x18
+      [FRAME] circle-check 18x18
+        [VECTOR] Vector 15x15
+      [TEXT] Completed step 79x13 -> "Photo received"
+      [FRAME] loader-circle 18x18
+        [VECTOR] Vector 14x14
+      [TEXT] Current step 97x13 -> "Recognizing foods"
+    [FRAME] Secondary button 352x56
+      [TEXT] Label 86x17 -> "Cancel Scan"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Empty — No meal history ===
+[FRAME] Empty — No meal history 400x884
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] Header copy 352x47
+      [TEXT] Overline 75x12 -> "Meal history"
+      [TEXT] Screen title 352x31 -> "A diary worth building."
+  [FRAME] Screen content 400x676
+    [FRAME] Empty history state 352x464
+      [FRAME] Diary illustration 200x188
+        [FRAME] Diary sheet 144x148
+          [FRAME] clock-3 32x32
+            [VECTOR] Vector 27x27
+          [RECTANGLE] Diary line 88x1
+          [RECTANGLE] Diary line 60x1
+          [RECTANGLE] Bookmark 6x28
+        [RECTANGLE] Archive sheet 128x148
+      [TEXT] Overline 156x12 -> "Your meals. Your patterns."
+      [TEXT] Empty title 352x34 -> "No meal history"
+      [TEXT] Supporting text 352x42 -> "Every meal you log lives here. Build a diary that helps you understand what fuels you."
+    [FRAME] Primary button 352x56
+      [FRAME] plus 20x20
+        [VECTOR] Vector 12x12
+      [TEXT] Label 146x17 -> "Start Your Food Diary"
+    [TEXT] Supporting text 352x18 -> "Find favorites, repeat meals, and spot your patterns."
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 36x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Empty — No progress data ===
+[FRAME] Empty — No progress data 400x884
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] Header copy 352x47
+      [TEXT] Overline 54x12 -> "Progress"
+      [TEXT] Screen title 352x31 -> "Your future, in focus."
+  [FRAME] Screen content 400x676
+    [FRAME] Empty progress state 352x464
+      [FRAME] Future trend illustration 224x168
+        [TEXT] Scale hint 44x12 -> "DAY ONE"
+        [ELLIPSE] Starting point 8x8
+        [VECTOR] Potential trend 200x120
+        [RECTANGLE] Chart grid 224x1
+        [RECTANGLE] Chart grid 224x1
+        [RECTANGLE] Chart grid 224x1
+        [RECTANGLE] Chart grid 224x1
+      [TEXT] Overline 167x12 -> "Consistency creates clarity"
+      [TEXT] Empty title 352x34 -> "No progress data"
+      [TEXT] Supporting text 352x42 -> "Start logging your meals and weight. Your trends will come into focus one day at a time."
+    [FRAME] Primary button 352x56
+      [FRAME] plus 20x20
+        [VECTOR] Vector 12x12
+      [TEXT] Label 131x17 -> "Log Your First Meal"
+    [TEXT] Supporting text 352x18 -> "Weekly insights unlock as you build your diary."
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 44x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Empty — No meals logged ===
+[FRAME] Empty — No meals logged 400x884
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] Header copy 352x47
+      [TEXT] Overline 101x12 -> "Today’s nutrition"
+      [TEXT] Screen title 352x31 -> "A fresh start."
+  [FRAME] Screen content 400x676
+    [FRAME] Empty meal state 352x464
+      [FRAME] Empty plate illustration 200x200
+        [ELLIPSE] Accent marker 6x6
+        [FRAME] Plate center 56x56
+          [FRAME] utensils 32x32
+            [VECTOR] Vector 24x27
+        [ELLIPSE] Plate well 120x120
+        [ELLIPSE] Plate rim 168x168
+      [TEXT] Overline 169x12 -> "Every meal is a new beginning"
+      [TEXT] Empty title 352x34 -> "No meals logged"
+      [TEXT] Supporting text 352x42 -> "Your nutrition story starts with your first meal. Scan a plate or tell us what you ate."
+    [FRAME] Primary button 352x56
+      [FRAME] scan-line 20x20
+        [VECTOR] Vector 15x15
+      [TEXT] Label 140x17 -> "Scan Your First Meal"
+    [TEXT] Supporting text 352x18 -> "No perfect meals required. Just an honest start."
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 29x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== WhatsApp Summary ===
+[FRAME] WhatsApp Summary 400x1087
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 112x12 -> "WhatsApp summary"
+      [TEXT] Screen title 316x31 -> "A day, in perspective."
+  [FRAME] Screen content 400x879
+    [FRAME] Report intro 352x112
+      [TEXT] Readiness message 352x58 -> "Your daily nutrition report is ready."
+      [TEXT] Supporting text 352x42 -> "A clear snapshot of today so far, delivered straight to your WhatsApp."
+    [FRAME] Card 352x499
+      [FRAME] Report brand 304x22
+        [TEXT] Wordmark 107x22 -> "GYMBUDDY"
+        [FRAME] file-chart-column 22x22
+          [VECTOR] Vector 15x18
+      [TEXT] Overline 171x12 -> "Daily report · 05 October 2026"
+      [FRAME] Calorie summary 304x97
+        [TEXT] Calories 114x73 -> "760"
+        [TEXT] Calorie label 182x16 -> "Calories · of 2,600 kcal target"
+      [RECTANGLE] Report divider 304x1
+      [FRAME] Report metric 304x22
+        [TEXT] Metric label 47x17 -> "Protein"
+        [TEXT] Metric value 80x22 -> "64 g / 160 g"
+      [FRAME] Report metric 304x22
+        [TEXT] Metric label 40x17 -> "Carbs"
+        [TEXT] Metric value 80x22 -> "88 g / 310 g"
+      [FRAME] Report metric 304x22
+        [TEXT] Metric label 22x17 -> "Fat"
+        [TEXT] Metric value 70x22 -> "17 g / 80 g"
+      [FRAME] Report metric 304x22
+        [TEXT] Metric label 40x17 -> "Meals"
+        [TEXT] Metric value 84x22 -> "2 logged today"
+      [FRAME] Remaining balance 304x39
+        [TEXT] Remaining calories 280x15 -> "1,840 kcal remaining · Keep going."
+    [FRAME] WhatsApp destination 352x34
+      [FRAME] message-circle 24x24
+        [VECTOR] Vector 20x20
+      [FRAME] Recipient 282x34
+        [TEXT] Label 146x13 -> "SEND TO YOUR WHATSAPP"
+        [TEXT] Phone number 117x17 -> "+91 98765 43210"
+      [TEXT] Edit action 22x15 -> "Edit"
+    [FRAME] Primary button 352x56
+      [FRAME] send 20x20
+        [VECTOR] Vector 17x17
+      [TEXT] Label 129x17 -> "Send to WhatsApp"
+    [TEXT] Supporting text 352x34 -> "Only this nutrition summary will be shared. Your personal profile stays private."
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 29x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Meal History ===
+[FRAME] Meal History 400x1151
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] Header copy 296x47
+      [TEXT] Overline 75x12 -> "Meal history"
+      [TEXT] Screen title 296x31 -> "Your nutrition diary."
+    [FRAME] Header action 44x44
+      [FRAME] calendar-days 20x20
+        [VECTOR] Vector 15x17
+  [FRAME] Screen content 400x943
+    [FRAME] Input field 352x79
+      [TEXT] Field label 100x15 -> "Search your diary"
+      [FRAME] Input container 352x56
+        [TEXT] Field value 302x17 -> "Search meals or ingredients"
+        [FRAME] search 18x18
+          [VECTOR] Vector 14x14
+    [FRAME] History filters 352x36
+      [FRAME] Filter chip 80x36
+        [TEXT] Label 52x15 -> "All meals"
+      [FRAME] Filter chip 99x36
+        [TEXT] Label 71x15 -> "High protein"
+      [FRAME] Filter chip 64x36
+        [TEXT] Label 36x15 -> "Filters"
+    [FRAME] Day group 352x209
+      [FRAME] Day summary 352x13
+        [TEXT] Overline 108x12 -> "Today · 05 Oct 2026"
+        [TEXT] Daily total 44x13 -> "760 kcal"
+      [FRAME] Card 352x180
+        [FRAME] Meal entry 320x64
+          [RECTANGLE] Meal photograph 64x64
+          [FRAME] Meal details 242x55
+            [TEXT] Meal name 242x18 -> "Grilled Chicken Rice Bowl"
+            [TEXT] Nutrition 132x15 -> "440 kcal  ·  42g protein"
+            [TEXT] Timestamp 133x12 -> "05 OCT · 12:45 PM · LUNCH"
+        [FRAME] Meal entry 320x64
+          [RECTANGLE] Meal photograph 64x64
+          [FRAME] Meal details 242x55
+            [TEXT] Meal name 242x18 -> "Egg & avocado toast"
+            [TEXT] Nutrition 131x15 -> "320 kcal  ·  22g protein"
+            [TEXT] Timestamp 157x12 -> "05 OCT · 08:30 AM · BREAKFAST"
+    [FRAME] Day group 352x377
+      [FRAME] Day summary 352x13
+        [TEXT] Overline 133x12 -> "Yesterday · 04 Oct 2026"
+        [TEXT] Daily total 54x13 -> "2,200 kcal"
+      [FRAME] Card 352x348
+        [FRAME] Meal entry 320x64
+          [RECTANGLE] Meal photograph 64x64
+          [FRAME] Meal details 242x55
+            [TEXT] Meal name 242x18 -> "Chicken & roasted rice"
+            [TEXT] Nutrition 130x15 -> "780 kcal  ·  56g protein"
+            [TEXT] Timestamp 136x12 -> "04 OCT · 07:40 PM · DINNER"
+        [FRAME] Meal entry 320x64
+          [RECTANGLE] Meal photograph 64x64
+          [FRAME] Meal details 242x55
+            [TEXT] Meal name 242x18 -> "Greek yogurt & berries"
+            [TEXT] Nutrition 129x15 -> "200 kcal  ·  19g protein"
+            [TEXT] Timestamp 132x12 -> "04 OCT · 04:15 PM · SNACK"
+        [FRAME] Meal entry 320x64
+          [RECTANGLE] Meal photograph 64x64
+          [FRAME] Meal details 242x55
+            [TEXT] Meal name 242x18 -> "Chicken rice bowl"
+            [TEXT] Nutrition 130x15 -> "720 kcal  ·  58g protein"
+            [TEXT] Timestamp 132x12 -> "04 OCT · 01:10 PM · LUNCH"
+        [FRAME] Meal entry 320x64
+          [RECTANGLE] Meal photograph 64x64
+          [FRAME] Meal details 242x55
+            [TEXT] Meal name 242x18 -> "Eggs on sourdough"
+            [TEXT] Nutrition 130x15 -> "500 kcal  ·  27g protein"
+            [TEXT] Timestamp 157x12 -> "04 OCT · 08:20 AM · BREAKFAST"
+    [TEXT] Supporting text 352x18 -> "Showing 6 meals · Tap a meal to review details"
+    [FRAME] Primary button 352x56
+      [FRAME] plus 20x20
+        [VECTOR] Vector 12x12
+      [TEXT] Label 74x17 -> "Log a Meal"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 36x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Progress ===
+[FRAME] Progress 400x1438
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] Header copy 296x47
+      [TEXT] Overline 108x12 -> "Your performance"
+      [TEXT] Screen title 296x31 -> "Built on consistency."
+    [FRAME] Header action 44x44
+      [FRAME] calendar-days 20x20
+        [VECTOR] Vector 15x17
+  [FRAME] Screen content 400x1230
+    [FRAME] Period selection 352x36
+      [FRAME] Filter chip 60x36
+        [TEXT] Label 32x15 -> "Week"
+      [FRAME] Filter chip 65x36
+        [TEXT] Label 37x15 -> "Month"
+      [FRAME] Filter chip 54x36
+        [TEXT] Label 26x15 -> "Year"
+    [TEXT] Supporting text 352x18 -> "Last completed week · 28 Sep – 04 Oct"
+    [FRAME] Weekly summary 352x99
+      [FRAME] Summary metric 112x99
+        [TEXT] Label 88x14 -> "Avg Calories"
+        [TEXT] Value 72x30 -> "2,260"
+        [TEXT] Unit 41x11 -> "kcal / day"
+      [FRAME] Summary metric 112x99
+        [TEXT] Label 88x14 -> "Avg Protein"
+        [TEXT] Value 45x30 -> "148"
+        [TEXT] Unit 30x11 -> "g / day"
+      [FRAME] Summary metric 112x99
+        [TEXT] Label 88x14 -> "Goal Completion"
+        [TEXT] Value 54x30 -> "86%"
+        [TEXT] Unit 64x11 -> "daily check-ins"
+    [FRAME] Card 352x235
+      [FRAME] Chart heading 312x19
+        [TEXT] Title 122x19 -> "Weekly calories"
+        [TEXT] Target label 83x12 -> "Target 2,600 kcal"
+      [FRAME] Calorie chart 312x132
+        [FRAME] Calorie scale 28x132
+          [TEXT] Scale label 11x11 -> "3k"
+          [TEXT] Scale label 11x11 -> "2k"
+          [TEXT] Scale label 10x11 -> "1k"
+          [TEXT] Scale label 6x11 -> "0"
+        [FRAME] Bar plot 272x132
+          [RECTANGLE] Daily calorie bar 19x97
+          [RECTANGLE] Daily calorie bar 19x101
+          [RECTANGLE] Daily calorie bar 19x96
+          [RECTANGLE] Daily calorie bar 19x106
+          [RECTANGLE] Daily calorie bar 19x99
+          [RECTANGLE] Daily calorie bar 19x102
+          [RECTANGLE] Daily calorie bar 19x96
+          [RECTANGLE] Daily target rule 272x1
+          [RECTANGLE] Grid line 272x1
+          [RECTANGLE] Grid line 272x1
+          [RECTANGLE] Grid line 272x1
+          [RECTANGLE] Grid line 272x1
+      [FRAME] Weekday axis 312x12
+        [TEXT] Day 9x12 -> "M"
+        [TEXT] Day 7x12 -> "T"
+        [TEXT] Day 10x12 -> "W"
+        [TEXT] Day 7x12 -> "T"
+        [TEXT] Day 6x12 -> "F"
+        [TEXT] Day 7x12 -> "S"
+        [TEXT] Day 7x12 -> "S"
+    [FRAME] Card 352x206
+      [FRAME] Protein trend heading 312x19
+        [TEXT] Title 101x19 -> "Protein trend"
+        [TEXT] Trend change 102x15 -> "+18g vs last week"
+      [FRAME] Protein trend chart 312x131
+        [FRAME] Chart plot 312x112
+          [FRAME] Y axis 30x112
+            [TEXT] Scale label 21x11 -> "180g"
+            [TEXT] Scale label 22x11 -> "140g"
+            [TEXT] Scale label 21x11 -> "100g"
+          [FRAME] Plot area 270x112
+            [VECTOR] Trend line segment 45x7
+            [VECTOR] Trend line segment 45x1
+            [VECTOR] Trend line segment 45x34
+            [VECTOR] Trend line segment 45x14
+            [VECTOR] Trend line segment 45x19
+            [VECTOR] Trend line segment 45x14
+            [RECTANGLE] Grid line 268x1
+            [RECTANGLE] Grid line 268x1
+            [RECTANGLE] Grid line 268x1
+        [FRAME] X axis 312x11
+          [TEXT] Date label 9x11 -> "M"
+          [TEXT] Date label 6x11 -> "T"
+          [TEXT] Date label 9x11 -> "W"
+          [TEXT] Date label 6x11 -> "T"
+          [TEXT] Date label 6x11 -> "F"
+          [TEXT] Date label 6x11 -> "S"
+          [TEXT] Date label 6x11 -> "S"
+    [FRAME] Card 352x237
+      [FRAME] Weight trend heading 312x19
+        [TEXT] Title 101x19 -> "Weight trend"
+        [TEXT] Weight change 105x15 -> "−1.8 kg this month"
+      [FRAME] Weight trend chart 312x131
+        [FRAME] Chart plot 312x112
+          [FRAME] Y axis 30x112
+            [TEXT] Scale label 22x11 -> "80kg"
+            [TEXT] Scale label 21x11 -> "79kg"
+            [TEXT] Scale label 21x11 -> "78kg"
+          [FRAME] Plot area 270x112
+            [VECTOR] Trend line segment 45x14
+            [VECTOR] Trend line segment 45x29
+            [VECTOR] Trend line segment 45x10
+            [VECTOR] Trend line segment 45x19
+            [VECTOR] Trend line segment 45x5
+            [VECTOR] Trend line segment 45x10
+            [RECTANGLE] Grid line 268x1
+            [RECTANGLE] Grid line 268x1
+            [RECTANGLE] Grid line 268x1
+        [FRAME] X axis 312x11
+          [TEXT] Date label 30x11 -> "07 Sep"
+          [TEXT] Date label 29x11 -> "14 Sep"
+          [TEXT] Date label 29x11 -> "21 Sep"
+          [TEXT] Date label 30x11 -> "28 Sep"
+          [TEXT] Date label 30x11 -> "04 Oct"
+      [TEXT] Supporting text 312x15 -> "Current 78.0 kg · weekly average"
+    [FRAME] Card 352x127
+      [FRAME] Goal status 312x15
+        [TEXT] Overline 121x12 -> "Build muscle · week 4"
+        [TEXT] Completion 25x15 -> "86%"
+      [FRAME] Progress track 312x4
+        [RECTANGLE] Progress fill 268x4
+      [TEXT] Supporting text 312x36 -> "6 of 7 daily check-ins complete. Consistency is your strongest metric."
+    [FRAME] Primary button 352x56
+      [FRAME] plus 20x20
+        [VECTOR] Vector 12x12
+      [TEXT] Label 134x17 -> "Log Today’s Weight"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 44x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+
+=== Text Logging ===
+[FRAME] Text Logging 400x1069
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41"
+    [ELLIPSE] Camera cutout 10x10
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] signal 14x14
+        [VECTOR] Vector 12x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 91x12 -> "Log with words"
+      [TEXT] Screen title 316x31 -> "What did you eat?"
+  [FRAME] Screen content 400x861
+    [TEXT] Supporting text 352x42 -> "Tell us naturally. GymBuddy will turn your meal into calories and macros."
+    [FRAME] Meal description input 352x208
+      [TEXT] Input placeholder 312x54 -> "Example: 2 eggs, 2 chapatis and a glass of milk"
+      [FRAME] Input tools 312x44
+        [TEXT] Character count 35x12 -> "0 / 500"
+        [FRAME] Voice input 44x44
+          [FRAME] mic 20x20
+            [VECTOR] Vector 12x17
+    [FRAME] Primary button 352x56
+      [FRAME] sparkles 20x20
+        [VECTOR] Vector 17x17
+      [TEXT] Label 74x17 -> "AI Analyze"
+    [FRAME] Suggested descriptions 352x114
+      [FRAME] Section heading 352x22
+        [TEXT] Title 198x22 -> "Try a quick suggestion"
+      [FRAME] Suggestions 352x80
+        [FRAME] Filter chip 110x36
+          [TEXT] Label 82x15 -> "Oats with milk"
+        [FRAME] Filter chip 111x36
+          [TEXT] Label 83x15 -> "Chicken & rice"
+        [FRAME] Filter chip 106x36
+          [TEXT] Label 78x15 -> "2 boiled eggs"
+        [FRAME] Filter chip 106x36
+          [TEXT] Label 78x15 -> "Protein shake"
+    [FRAME] Recent foods 352x239
+      [FRAME] Section heading 352x22
+        [TEXT] Title 116x22 -> "Recent foods"
+        [TEXT] Text action 38x15 -> "See all"
+      [FRAME] Card 352x201
+        [FRAME] Recent food 352x67
+          [FRAME] Food details 288x35
+            [TEXT] Name 131x17 -> "Whey protein shake"
+            [TEXT] Serving 161x13 -> "1 scoop · 120 kcal · 24g protein"
+          [FRAME] plus 20x20
+            [VECTOR] Vector 12x12
+        [FRAME] Recent food 352x67
+          [FRAME] Food details 288x35
+            [TEXT] Name 87x17 -> "Greek yogurt"
+            [TEXT] Serving 144x13 -> "170g · 100 kcal · 17g protein"
+          [FRAME] plus 20x20
+            [VECTOR] Vector 12x12
+        [FRAME] Recent food 352x67
+          [FRAME] Food details 288x35
+            [TEXT] Name 50x17 -> "Banana"
+            [TEXT] Serving 162x13 -> "1 medium · 105 kcal · 1g protein"
+          [FRAME] plus 20x20
+            [VECTOR] Vector 12x12
+    [TEXT] Supporting text 352x34 -> "Be specific about quantities for better estimates. “One cup” is better than “some.”"
+  [FRAME] Bottom navigation 400x88
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 77x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 28x12 -> "Home"
+      [FRAME] Navigation tab 77x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 17x17
+        [TEXT] Tab label 44x12 -> "Log Meal"
+      [FRAME] Navigation tab 77x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x17
+        [TEXT] Tab label 42x12 -> "Progress"
+      [FRAME] Navigation tab 77x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History"
+      [FRAME] Navigation tab 77x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 15x17
+        [TEXT] Tab label 31x12 -> "Profile"
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3
+
+

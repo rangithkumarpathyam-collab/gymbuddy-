@@ -1,4 +1,12 @@
 .streamlit/secrets.toml
+.agents/mcp_config.json
 venv/
 __pycache__/
 *.pyc
+*.json.bak
+gymbuddy_app/build/
+gymbuddy_app/.dart_tool/
+gymbuddy_app/.flutter-plugins
+gymbuddy_app/.flutter-plugins-dependencies
+figma_deep.json
+figma_raw.json

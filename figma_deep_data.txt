@@ -1,0 +1,840 @@
+﻿=== FULL COLOR PALETTE ===
+  #000000  rgba(0,0,0,1.0)
+  #050505  rgba(5,5,5,1.0)
+  #0B0B0D  rgba(11,11,13,1.0)
+  #111113  rgba(17,17,19,1.0)
+  #15221A  rgba(21,34,26,1.0)
+  #19191C  rgba(25,25,28,1.0)
+  #192212  rgba(25,34,18,1.0)
+  #20182F  rgba(32,24,47,1.0)
+  #232327  rgba(35,35,39,1.0)
+  #242426  rgba(36,36,38,1.0)
+  #303036  rgba(48,48,54,1.0)
+  #48484D  rgba(72,72,77,1.0)
+  #48484F  rgba(72,72,79,1.0)
+  #77777D  rgba(119,119,125,1.0)
+  #777780  rgba(119,119,128,1.0)
+  #92DDAE  rgba(146,221,174,1.0)
+  #A2A2AA  rgba(162,162,170,1.0)
+  #AC8CFF  rgba(172,140,255,1.0)
+  #D6FF7F  rgba(214,255,127,1.0)
+  #F7F7F7  rgba(247,247,247,1.0)
+  #FFFFFF  rgba(255,255,255,1.0)
+
+=== ALL TEXT STYLES ===
+  Inter  9.0px  weight:400   e.g: "g / day"
+  Inter  10.0px  weight:400   e.g: "04 OCT ┬╖ 01:10 PM ┬╖ LUNCH"
+  Inter  10.0px  weight:600   e.g: "Balancing the numbers"
+  Inter  11.0px  weight:400   e.g: "Midnight ┬╖ Dark"
+  Inter  12.0px  weight:500   e.g: "Build muscle"
+  Inter  12.0px  weight:400   e.g: "Protein"
+  Inter  12.0px  weight:700   e.g: "GYMBUDDY"
+  Inter  12.0px  weight:600   e.g: "9:41"
+  Inter  13.0px  weight:400   e.g: "640 kcal ┬╖ planned"
+  Inter  14.0px  weight:400   e.g: "40 kcal"
+  Inter  14.0px  weight:500   e.g: "WhatsApp Number"
+  Inter  14.0px  weight:700   e.g: "Upload From Gallery"
+  Inter  16.0px  weight:700   e.g: "GYMBUDDY"
+  Inter  16.0px  weight:600   e.g: "Weekly calories"
+  Inter  16.0px  weight:400   e.g: "kcal"
+  Inter  16.0px  weight:500   e.g: "Greek yogurt & berries"
+  Inter  17.0px  weight:400   e.g: "Example: 2 eggs, 2 chapatis and a glass of milk"
+  Inter  18.0px  weight:600   e.g: "WhatΓÇÖs inside"
+  Inter  18.0px  weight:400   e.g: "ΓÇó"
+  Inter  18.0px  weight:700   e.g: "GYMBUDDY"
+  Inter  20.0px  weight:500   e.g: "760 kcal"
+  Inter  22.0px  weight:600   e.g: "Fuel your potential."
+  Inter  22.0px  weight:500   e.g: "Your daily nutrition report is ready."
+  Inter  24.0px  weight:600   e.g: "88g"
+  Inter  25.0px  weight:600   e.g: "148"
+  Inter  26.0px  weight:600   e.g: "Sending your report"
+  Inter  26.0px  weight:500   e.g: "Making sense of your meal."
+  Inter  28.0px  weight:500   e.g: "50g"
+  Inter  28.0px  weight:600   e.g: "No meals logged"
+  Inter  30.0px  weight:500   e.g: "78 kg"
+  Inter  36.0px  weight:700   e.g: "GYMBUDDY"
+  Inter  36.0px  weight:600   e.g: "760"
+  Inter  38.0px  weight:600   e.g: "1,840"
+  Inter  42.0px  weight:600   e.g: "64g protein today"
+  Inter  48.0px  weight:600   e.g: "GB."
+  Inter  52.0px  weight:600   e.g: "1,840"
+  Inter  56.0px  weight:600   e.g: "440"
+  Inter  60.0px  weight:600   e.g: "760"
+
+============================================================
+SCREEN: Splash
+============================================================
+[FRAME] Splash 400x884 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] Brand stage 400x748
+    [FRAME] Orbital motion concept 288x288
+      [TEXT] Monogram 82x58 -> "GB." [Inter 48.0px w600] #F7F7F7
+      [RECTANGLE] Precision axis 232x1 #FFFFFF
+      [RECTANGLE] Precision axis 1x232 #FFFFFF
+      [ELLIPSE] Orbit particle ΓÇö circular travel 7x7 #D6FF7F
+      [ELLIPSE] Core halo ΓÇö breathing opacity 160x160
+      [ELLIPSE] Inner orbit ΓÇö counter rotation 224x224
+      [ELLIPSE] Outer orbit ΓÇö slow rotation 288x288
+    [FRAME] Brand signature 400x75
+      [TEXT] Wordmark 213x44 -> "GYMBUDDY" [Inter 36.0px w700] #F7F7F7
+      [TEXT] Tagline 352x15 -> "Your AI Nutrition & Calorie Tracker" [Inter 12.0px w400] #A2A2AA
+  [FRAME] Startup indicator 400x35
+    [TEXT] Overline 152x12 -> "Precision. Powered by you." [Inter 10.0px w600] #777780
+    [FRAME] Motion sequence 48x3
+      [RECTANGLE] Loading pulse ΓÇö sequential fade 24x3 #D6FF7F
+      [RECTANGLE] Loading pulse ΓÇö sequential fade 6x3 #303036
+      [RECTANGLE] Loading pulse ΓÇö sequential fade 6x3 #303036
+
+============================================================
+SCREEN: Onboarding
+============================================================
+[FRAME] Onboarding 400x1086 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 316x47
+      [TEXT] Overline 144x12 -> "Your nutrition blueprint" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Screen title 316x31 -> "Make it personal." [Inter 26.0px w600] #F7F7F7
+  [FRAME] Screen content 400x966
+    [FRAME] Setup progress 352x82
+      [FRAME] Progress labels 352x12
+        [TEXT] Overline 115x12 -> "8 / 8 ┬╖ Profile details" [Inter 10.0px w600] #D6FF7F
+        [TEXT] Next step 86x12 -> "Ready to continue" [Inter 10.0px w400] #777780
+      [FRAME] Progress track 352x4 #303036
+        [RECTANGLE] Progress fill 352x4 #D6FF7F
+      [TEXT] Supporting text 352x42 -> "A few details. A smarter daily target. Built around your body and your" [Inter 14.0px w400] #A2A2AA
+    [FRAME] Input field 352x79
+      [TEXT] Field label 34x15 -> "Name" [Inter 12.0px w400] #A2A2AA
+      [FRAME] Input container 352x56 #0B0B0D
+        [TEXT] Field value 320x17 -> "Arjun Mehta" [Inter 14.0px w400] #F7F7F7
+    [FRAME] Personal details 352x79
+      [FRAME] Input field 168x79
+        [TEXT] Field label 23x15 -> "Age" [Inter 12.0px w400] #A2A2AA
+        [FRAME] Input container 168x56 #0B0B0D
+          [TEXT] Field value 136x17 -> "28 years" [Inter 14.0px w400] #F7F7F7
+      [FRAME] Input field 168x79
+        [TEXT] Field label 42x15 -> "Gender" [Inter 12.0px w400] #A2A2AA
+        [FRAME] Input container 168x56 #0B0B0D
+          [TEXT] Field value 118x17 -> "Male" [Inter 14.0px w400] #F7F7F7
+          [FRAME] chevron-down 18x18
+            [VECTOR] Vector 9x4
+    [FRAME] Body measurements 352x79
+      [FRAME] Input field 168x79
+        [TEXT] Field label 40x15 -> "Weight" [Inter 12.0px w400] #A2A2AA
+        [FRAME] Input container 168x56 #0B0B0D
+          [TEXT] Field value 136x17 -> "78 kg" [Inter 14.0px w400] #F7F7F7
+      [FRAME] Input field 168x79
+        [TEXT] Field label 38x15 -> "Height" [Inter 12.0px w400] #A2A2AA
+        [FRAME] Input container 168x56 #0B0B0D
+          [TEXT] Field value 136x17 -> "180 cm" [Inter 14.0px w400] #F7F7F7
+    [FRAME] Fitness goal 352x63
+      [TEXT] Field label 69x15 -> "Fitness goal" [Inter 12.0px w400] #A2A2AA
+      [FRAME] Goal options 352x36
+        [FRAME] Filter chip 101x36 #192212
+          [TEXT] Label 73x15 -> "Build muscle" [Inter 12.0px w500] #D6FF7F
+        [FRAME] Filter chip 75x36 #111113
+          [TEXT] Label 47x15 -> "Lose fat" [Inter 12.0px w500] #A2A2AA
+        [FRAME] Filter chip 78x36 #111113
+          [TEXT] Label 50x15 -> "Maintain" [Inter 12.0px w500] #A2A2AA
+    [FRAME] Input field 352x105
+      [TEXT] Field label 102x15 -> "Daily activity level" [Inter 12.0px w400] #A2A2AA
+      [FRAME] Input container 352x56 #0B0B0D
+        [TEXT] Field value 302x17 -> "Moderately active" [Inter 14.0px w400] #F7F7F7
+        [FRAME] chevron-down 18x18
+          [VECTOR] Vector 9x4
+      [TEXT] Supporting text 352x18 -> "Training 3ΓÇô5 days a week" [Inter 12.0px w400] #777780
+    [FRAME] Input field 352x105
+      [TEXT] Field label 106x15 -> "WhatsApp number" [Inter 12.0px w400] #A2A2AA
+      [FRAME] Input container 352x56 #0B0B0D
+        [TEXT] Field value 302x17 -> "+91  98765 43210" [Inter 14.0px w400] #F7F7F7
+        [FRAME] phone 18x18
+          [VECTOR] Vector 15x15
+      [TEXT] Supporting text 352x18 -> "Your daily report, only when you choose to send it." [Inter 12.0px w400] #777780
+    [FRAME] Privacy reassurance 352x20
+      [FRAME] shield-check 20x20
+        [VECTOR] Vector 13x16
+      [TEXT] Supporting text 320x18 -> "Your health data stays private. YouΓÇÖre always in control." [Inter 12.0px w400] #A2A2AA
+    [FRAME] Primary button 352x56 #D6FF7F
+      [FRAME] arrow-right 20x20
+        [VECTOR] Vector 11x11
+      [TEXT] Label 63x17 -> "Continue" [Inter 14.0px w700] #050505
+    [TEXT] Supporting text 352x34 -> "By continuing, you agree to our Terms of Service and Privacy Policy." [Inter 11.0px w400] #777780
+
+============================================================
+SCREEN: Home
+============================================================
+[FRAME] Home 400x1104 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] Screen content 400x972
+    [FRAME] Personal greeting 352x46
+      [RECTANGLE] Profile photograph 44x44
+      [FRAME] Greeting 240x46
+        [TEXT] Salutation 117x15 -> "Good morning, Arjun" [Inter 12.0px w400] #A2A2AA
+        [TEXT] Headline 204x27 -> "Fuel your potential." [Inter 22.0px w600] #F7F7F7
+      [FRAME] Notifications 44x44
+        [TEXT] Unread indicator 11x22 -> "ΓÇó" [Inter 18.0px w400] #D6FF7F
+        [FRAME] bell 24x24
+          [VECTOR] Vector 18x20
+    [FRAME] Date 352x15
+      [TEXT] Overline 114x12 -> "Monday, 05 October" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Daily view action 98x15 -> "Daily overview Γåù" [Inter 12.0px w400] #D6FF7F
+    [FRAME] Card 352x215 #111113
+      [FRAME] Calorie balance 312x108
+        [FRAME] Calorie total 200x108
+          [TEXT] Overline 109x12 -> "Calories remaining" [Inter 10.0px w600] #D6FF7F
+          [TEXT] Remaining calories 140x63 -> "1,840" [Inter 52.0px w600] #F7F7F7
+          [TEXT] Calorie unit 27x17 -> "kcal" [Inter 14.0px w400] #A2A2AA
+        [FRAME] Progress ring 104x104
+          [FRAME] Ring label 104x104
+            [TEXT] Value 60x34 -> "29%" [Inter 28.0px w600] #F7F7F7
+            [TEXT] Unit 50x12 -> "consumed" [Inter 10.0px w400] #A2A2AA
+          [ELLIPSE] Ring track 104x104
+          [VECTOR] Ring progress 49x62
+      [FRAME] Daily calorie accounting 312x43
+        [FRAME] Consumed 64x43
+          [TEXT] Label 56x13 -> "Consumed" [Inter 11.0px w400] #A2A2AA
+          [TEXT] Amount 64x24 -> "760 kcal" [Inter 20.0px w500] #F7F7F7
+        [FRAME] Daily target 83x43
+          [TEXT] Label 60x13 -> "Daily target" [Inter 11.0px w400] #A2A2AA
+          [TEXT] Amount 83x24 -> "2,600 kcal" [Inter 20.0px w500] #F7F7F7
+    [FRAME] Daily macros 352x122
+      [FRAME] Macro card 112x122 #111113
+        [TEXT] Macro label 37x13 -> "Protein" [Inter 11.0px w400] #A2A2AA
+        [TEXT] Consumed amount 47x29 -> "64g" [Inter 24.0px w600] #F7F7F7
+        [TEXT] Target 36x12 -> "of 160g" [Inter 10.0px w400] #777780
+        [FRAME] Progress track 84x4 #303036
+          [RECTANGLE] Progress fill 33x4 #D6FF7F
+      [FRAME] Macro card 112x122 #111113
+        [TEXT] Macro label 31x13 -> "Carbs" [Inter 11.0px w400] #A2A2AA
+        [TEXT] Consumed amount 46x29 -> "88g" [Inter 24.0px w600] #F7F7F7
+        [TEXT] Target 36x12 -> "of 310g" [Inter 10.0px w400] #777780
+        [FRAME] Progress track 84x4 #303036
+          [RECTANGLE] Progress fill 23x4 #F7F7F7
+      [FRAME] Macro card 112x122 #111113
+        [TEXT] Macro label 23x13 -> "Fats" [Inter 11.0px w400] #A2A2AA
+        [TEXT] Consumed amount 40x29 -> "17g" [Inter 24.0px w600] #F7F7F7
+        [TEXT] Target 31x12 -> "of 80g" [Inter 10.0px w400] #777780
+        [FRAME] Progress track 84x4 #303036
+          [RECTANGLE] Progress fill 17x4 #AC8CFF
+    [FRAME] Quick actions 352x124
+      [FRAME] Primary button 352x56 #D6FF7F
+        [FRAME] scan-line 20x20
+          [VECTOR] Vector 15x15
+        [TEXT] Label 71x17 -> "Scan Meal" [Inter 14.0px w700] #050505
+      [FRAME] Alternative logging 352x56
+        [FRAME] Secondary button 170x56 #000000
+          [FRAME] plus 20x20
+            [VECTOR] Vector 11x11
+          [TEXT] Label 63x17 -> "Log Food" [Inter 14.0px w700] #F7F7F7
+        [FRAME] Secondary button 170x56 #000000
+          [FRAME] sparkles 20x20
+            [VECTOR] Vector 16x16
+          [TEXT] Label 44x17 -> "Ask AI" [Inter 14.0px w700] #F7F7F7
+    [FRAME] TodayΓÇÖs nutrition 352x190
+      [FRAME] Section heading 352x22
+        [TEXT] Title 148x22 -> "TodayΓÇÖs Nutrition" [Inter 18.0px w600] #F7F7F7
+        [TEXT] Text action 45x15 -> "View all" [Inter 12.0px w500] #D6FF7F
+      [FRAME] Meal entry 352x64
+        [RECTANGLE] Meal photograph 64x64
+        [FRAME] Meal details 274x55
+          [TEXT] Meal name 274x18 -> "Egg & avocado toast" [Inter 14.0px w500] #F7F7F7
+          [TEXT] Nutrition 131x15 -> "320 kcal  ┬╖  22g protein" [Inter 12.0px w400] #A2A2AA
+          [TEXT] Timestamp 117x12 -> "BREAKFAST  ┬╖  08:30 AM" [Inter 10.0px w400] #777780
+      [FRAME] Meal entry 352x64
+        [RECTANGLE] Meal photograph 64x64
+        [FRAME] Meal details 274x55
+          [TEXT] Meal name 274x18 -> "Grilled Chicken Rice Bowl" [Inter 14.0px w500] #F7F7F7
+          [TEXT] Nutrition 132x15 -> "440 kcal  ┬╖  42g protein" [Inter 12.0px w400] #A2A2AA
+          [TEXT] Timestamp 94x12 -> "LUNCH  ┬╖  12:45 PM" [Inter 10.0px w400] #777780
+    [FRAME] AI insight 352x68 #20182F
+      [FRAME] sparkles 20x20
+        [VECTOR] Vector 16x16
+      [TEXT] Supporting text 288x36 -> "Strong start. YouΓÇÖve hit 40% of your protein goal. Keep the momentum." [Inter 12.0px w400] #F7F7F7
+  [FRAME] Bottom navigation 400x88 #0B0B0D
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 76x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 16x17
+        [TEXT] Tab label 29x12 -> "Home" [Inter 10.0px w600] #D6FF7F
+      [FRAME] Navigation tab 76x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 16x16
+        [TEXT] Tab label 44x12 -> "Log Meal" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x16
+        [TEXT] Tab label 42x12 -> "Progress" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 14x16
+        [TEXT] Tab label 31x12 -> "Profile" [Inter 10.0px w400] #A2A2AA
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3 #77777D
+
+============================================================
+SCREEN: AI Meal Scanner
+============================================================
+[FRAME] AI Meal Scanner 400x1029 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 260x47
+      [TEXT] Overline 92x12 -> "AI meal scanner" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Screen title 260x31 -> "Scan your meal." [Inter 26.0px w600] #F7F7F7
+    [FRAME] Header action 44x44
+      [FRAME] flashlight 20x20
+        [VECTOR] Vector 10x16
+  [FRAME] Screen content 400x821
+    [TEXT] Supporting text 352x42 -> "Point. Capture. Know your nutrition. Keep your whole plate inside the " [Inter 14.0px w400] #A2A2AA
+    [FRAME] Camera preview 352x360 #000000
+      [FRAME] Framing hint 210x28 #050505
+        [TEXT] Hint 129x12 -> "One plate. Better accuracy." [Inter 10.0px w400] #F7F7F7
+      [RECTANGLE] Scan beam ΓÇö vertical sweep 272x1 #D6FF7F
+      [VECTOR] Capture guides 280x236
+      [FRAME] Camera status 103x28 #050505
+        [RECTANGLE] Live indicator 5x5 #D6FF7F
+        [TEXT] Camera mode 66x12 -> "LIVE CAMERA" [Inter 10.0px w400] #F7F7F7
+    [FRAME] Capture modes 352x36
+      [FRAME] Filter chip 62x36 #192212
+        [TEXT] Label 34x15 -> "Photo" [Inter 12.0px w500] #D6FF7F
+      [FRAME] Filter chip 91x36 #111113
+        [TEXT] Label 63x15 -> "AI assisted" [Inter 12.0px w500] #A2A2AA
+    [FRAME] Scanner explanation 352x18
+      [FRAME] sparkles 18x18
+        [VECTOR] Vector 15x15
+      [TEXT] Supporting text 324x18 -> "AI will estimate calories and macros" [Inter 12.0px w400] #A2A2AA
+    [FRAME] Capture actions 352x124
+      [FRAME] Primary button 352x56 #D6FF7F
+        [FRAME] camera 20x20
+          [VECTOR] Vector 16x13
+        [TEXT] Label 77x17 -> "Take Photo" [Inter 14.0px w700] #050505
+      [FRAME] Secondary button 352x56 #000000
+        [FRAME] image 20x20
+          [VECTOR] Vector 15x15
+        [TEXT] Label 139x17 -> "Upload From Gallery" [Inter 14.0px w700] #F7F7F7
+    [TEXT] Supporting text 352x34 -> "Good lighting helps. You can adjust ingredients and portions after sca" [Inter 11.0px w400] #777780
+    [TEXT] Text logging action 352x15 -> "Prefer typing? Log with words ΓåÆ" [Inter 12.0px w400] #D6FF7F
+  [FRAME] Bottom navigation 400x88 #0B0B0D
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 76x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 16x17
+        [TEXT] Tab label 28x12 -> "Home" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 16x16
+        [TEXT] Tab label 44x12 -> "Log Meal" [Inter 10.0px w600] #D6FF7F
+      [FRAME] Navigation tab 76x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x16
+        [TEXT] Tab label 42x12 -> "Progress" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 14x16
+        [TEXT] Tab label 31x12 -> "Profile" [Inter 10.0px w400] #A2A2AA
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3 #77777D
+
+============================================================
+SCREEN: Meal Analysis
+============================================================
+[FRAME] Meal Analysis 400x1254 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 260x47
+      [TEXT] Overline 81x12 -> "Meal analysis" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Screen title 260x31 -> "Your meal, decoded." [Inter 26.0px w600] #F7F7F7
+    [FRAME] Header action 44x44
+      [FRAME] ellipsis 20x20
+        [VECTOR] Vector 13x1
+  [FRAME] Screen content 400x1046
+    [RECTANGLE] Meal photograph 352x224
+    [FRAME] Meal identity 352x83
+      [FRAME] AI confidence 352x14
+        [FRAME] sparkles 14x14
+          [VECTOR] Vector 11x11
+        [TEXT] Overline 198x12 -> "AI-generated nutritional estimate" [Inter 10.0px w600] #AC8CFF
+      [TEXT] Meal name 352x31 -> "Grilled Chicken Rice Bowl" [Inter 26.0px w600] #F7F7F7
+      [TEXT] Supporting text 352x18 -> "1 bowl ┬╖ estimated serving 355g" [Inter 12.0px w400] #A2A2AA
+    [FRAME] Card 352x183 #111113
+      [FRAME] Energy total 312x68
+        [TEXT] Calories 112x68 -> "440" [Inter 56.0px w600] #F7F7F7
+        [TEXT] Unit 31x19 -> "kcal" [Inter 16.0px w400] #A2A2AA
+      [FRAME] Macro estimates 312x55
+        [FRAME] Nutrient estimate 88x55
+          [TEXT] Value 53x34 -> "42g" [Inter 28.0px w500] #D6FF7F
+          [TEXT] Nutrient 41x15 -> "Protein" [Inter 12.0px w400] #A2A2AA
+        [FRAME] Nutrient estimate 88x55
+          [TEXT] Value 53x34 -> "50g" [Inter 28.0px w500] #F7F7F7
+          [TEXT] Nutrient 34x15 -> "Carbs" [Inter 12.0px w400] #A2A2AA
+        [FRAME] Nutrient estimate 88x55
+          [TEXT] Value 35x34 -> "8g" [Inter 28.0px w500] #AC8CFF
+          [TEXT] Nutrient 19x15 -> "Fat" [Inter 12.0px w400] #A2A2AA
+    [FRAME] Ingredient breakdown 352x230
+      [FRAME] Section heading 352x22
+        [TEXT] Title 116x22 -> "WhatΓÇÖs inside" [Inter 18.0px w600] #F7F7F7
+        [TEXT] Text action 76x15 -> "4 ingredients" [Inter 12.0px w500] #D6FF7F
+      [FRAME] Ingredient 352x34
+        [FRAME] Ingredient detail 297x34
+          [TEXT] Name 54x17 -> "Chicken" [Inter 14.0px w400] #F7F7F7
+          [TEXT] Portion estimate 102x13 -> "110g ┬╖ grilled breast" [Inter 11.0px w400] #777780
+        [TEXT] Calories 55x17 -> "180 kcal" [Inter 14.0px w400] #A2A2AA
+      [FRAME] Ingredient 352x34
+        [FRAME] Ingredient detail 297x34
+          [TEXT] Name 29x17 -> "Rice" [Inter 14.0px w400] #F7F7F7
+          [TEXT] Portion estimate 127x13 -> "125g ┬╖ cooked white rice" [Inter 11.0px w400] #777780
+        [TEXT] Calories 55x17 -> "160 kcal" [Inter 14.0px w400] #A2A2AA
+      [FRAME] Ingredient 352x34
+        [FRAME] Ingredient detail 303x34
+          [TEXT] Name 75x17 -> "Vegetables" [Inter 14.0px w400] #F7F7F7
+          [TEXT] Portion estimate 126x13 -> "100g ┬╖ broccoli & carrots" [Inter 11.0px w400] #777780
+        [TEXT] Calories 49x17 -> "40 kcal" [Inter 14.0px w400] #A2A2AA
+      [FRAME] Ingredient 352x34
+        [FRAME] Ingredient detail 304x34
+          [TEXT] Name 41x17 -> "Sauce" [Inter 14.0px w400] #F7F7F7
+          [TEXT] Portion estimate 117x13 -> "20g ┬╖ sesame dressing" [Inter 11.0px w400] #777780
+        [TEXT] Calories 48x17 -> "60 kcal" [Inter 14.0px w400] #A2A2AA
+    [FRAME] Meal actions 352x124
+      [FRAME] Primary button 352x56 #D6FF7F
+        [FRAME] plus 20x20
+          [VECTOR] Vector 11x11
+        [TEXT] Label 91x17 -> "Add to Today" [Inter 14.0px w700] #050505
+      [FRAME] Secondary button 352x56 #000000
+        [FRAME] sliders-horizontal 20x20
+          [VECTOR] Vector 15x15
+        [TEXT] Label 89x17 -> "Edit Portions" [Inter 14.0px w700] #F7F7F7
+    [TEXT] Supporting text 352x34 -> "Estimates may vary by recipe and portion. Review before adding to your" [Inter 11.0px w400] #777780
+  [FRAME] Bottom navigation 400x88 #0B0B0D
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 76x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 16x17
+        [TEXT] Tab label 28x12 -> "Home" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 16x16
+        [TEXT] Tab label 44x12 -> "Log Meal" [Inter 10.0px w600] #D6FF7F
+      [FRAME] Navigation tab 76x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x16
+        [TEXT] Tab label 42x12 -> "Progress" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 14x16
+        [TEXT] Tab label 31x12 -> "Profile" [Inter 10.0px w400] #A2A2AA
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3 #77777D
+
+============================================================
+SCREEN: Daily Nutrition
+============================================================
+[FRAME] Daily Nutrition 400x1366 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 260x47
+      [TEXT] Overline 114x12 -> "Monday, 05 October" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Screen title 260x31 -> "Your daily balance." [Inter 26.0px w600] #F7F7F7
+    [FRAME] Header action 44x44
+      [FRAME] calendar-days 20x20
+        [VECTOR] Vector 15x16
+  [FRAME] Screen content 400x1158
+    [FRAME] Card 352x160 #111113
+      [FRAME] Calorie overview 312x120
+        [FRAME] Progress ring 120x120
+          [FRAME] Ring label 120x120
+            [TEXT] Value 53x34 -> "760" [Inter 28.0px w600] #F7F7F7
+            [TEXT] Unit 71x12 -> "kcal consumed" [Inter 10.0px w400] #A2A2AA
+          [ELLIPSE] Ring track 120x120
+          [VECTOR] Ring progress 57x72
+        [FRAME] Calorie balance 168x92
+          [TEXT] Overline 57x12 -> "Remaining" [Inter 10.0px w600] #D6FF7F
+          [TEXT] Remaining amount 103x46 -> "1,840" [Inter 38.0px w600] #F7F7F7
+          [TEXT] Supporting text 168x18 -> "kcal of 2,600 daily target" [Inter 12.0px w400] #A2A2AA
+    [FRAME] Macro balance 352x122
+      [FRAME] Macro card 112x122 #111113
+        [TEXT] Macro label 37x13 -> "Protein" [Inter 11.0px w400] #A2A2AA
+        [TEXT] Consumed amount 47x29 -> "64g" [Inter 24.0px w600] #F7F7F7
+        [TEXT] Target 36x12 -> "of 160g" [Inter 10.0px w400] #777780
+        [FRAME] Progress track 84x4 #303036
+          [RECTANGLE] Progress fill 33x4 #D6FF7F
+      [FRAME] Macro card 112x122 #111113
+        [TEXT] Macro label 31x13 -> "Carbs" [Inter 11.0px w400] #A2A2AA
+        [TEXT] Consumed amount 46x29 -> "88g" [Inter 24.0px w600] #F7F7F7
+        [TEXT] Target 36x12 -> "of 310g" [Inter 10.0px w400] #777780
+        [FRAME] Progress track 84x4 #303036
+          [RECTANGLE] Progress fill 23x4 #F7F7F7
+      [FRAME] Macro card 112x122 #111113
+        [TEXT] Macro label 23x13 -> "Fats" [Inter 11.0px w400] #A2A2AA
+        [TEXT] Consumed amount 40x29 -> "17g" [Inter 24.0px w600] #F7F7F7
+        [TEXT] Target 31x12 -> "of 80g" [Inter 10.0px w400] #777780
+        [FRAME] Progress track 84x4 #303036
+          [RECTANGLE] Progress fill 17x4 #AC8CFF
+    [FRAME] Card 352x100 #111113
+      [FRAME] Water balance 320x48
+        [FRAME] droplet 24x24
+          [VECTOR] Vector 14x19
+        [FRAME] Water total 196x48
+          [TEXT] Label 34x15 -> "Water" [Inter 12.0px w400] #A2A2AA
+          [TEXT] Amount 71x27 -> "1.2 / 2.5 L" [Inter 22.0px w500] #F7F7F7
+        [FRAME] Filter chip 76x36 #111113
+          [TEXT] Label 48x15 -> "+ 250ml" [Inter 12.0px w500] #A2A2AA
+      [FRAME] Progress track 320x4 #303036
+        [RECTANGLE] Progress fill 153x4 #AC8CFF
+    [FRAME] Meal timeline 352x518
+      [FRAME] Section heading 352x22
+        [TEXT] Title 161x22 -> "Your meal timeline" [Inter 18.0px w600] #F7F7F7
+        [TEXT] Text action 88x15 -> "2 meals logged" [Inter 12.0px w500] #D6FF7F
+      [FRAME] Timeline meal 352x104
+        [FRAME] Timeline marker 20x104
+          [FRAME] circle-check 20x20
+            [VECTOR] Vector 16x16
+          [RECTANGLE] Timeline connector 1x76 #303036
+        [FRAME] Meal information 316x96
+          [FRAME] Meal metadata 316x12
+            [TEXT] Overline 59x12 -> "Breakfast" [Inter 10.0px w600] #A2A2AA
+            [TEXT] Time 47x12 -> "08:30 AM" [Inter 10.0px w400] #777780
+          [TEXT] Meal name 316x19 -> "Egg & avocado toast" [Inter 16.0px w500] #F7F7F7
+          [TEXT] Calories 53x16 -> "320 kcal" [Inter 13.0px w400] #F7F7F7
+          [TEXT] Macros or suggestion 316x13 -> "P 22g  ┬╖  C 38g  ┬╖  F 9g" [Inter 11.0px w400] #777780
+      [FRAME] Timeline meal 352x104
+        [FRAME] Timeline marker 20x104
+          [FRAME] circle-check 20x20
+            [VECTOR] Vector 16x16
+          [RECTANGLE] Timeline connector 1x76 #303036
+        [FRAME] Meal information 316x96
+          [FRAME] Meal metadata 316x12
+            [TEXT] Overline 36x12 -> "Lunch" [Inter 10.0px w600] #A2A2AA
+            [TEXT] Time 45x12 -> "12:45 PM" [Inter 10.0px w400] #777780
+          [TEXT] Meal name 316x19 -> "Grilled Chicken Rice Bowl" [Inter 16.0px w500] #F7F7F7
+          [TEXT] Calories 53x16 -> "440 kcal" [Inter 13.0px w400] #F7F7F7
+          [TEXT] Macros or suggestion 316x13 -> "P 42g  ┬╖  C 50g  ┬╖  F 8g" [Inter 11.0px w400] #777780
+      [FRAME] Timeline meal 352x104
+        [FRAME] Timeline marker 20x104
+          [FRAME] circle-dashed 20x20
+            [VECTOR] Vector 16x16
+          [RECTANGLE] Timeline connector 1x76 #303036
+        [FRAME] Meal information 316x96
+          [FRAME] Meal metadata 316x12
+            [TEXT] Overline 35x12 -> "Snack" [Inter 10.0px w600] #777780
+            [TEXT] Time 93x12 -> "04:00 PM ┬╖ planned" [Inter 10.0px w400] #777780
+          [TEXT] Meal name 316x19 -> "Greek yogurt & berries" [Inter 16.0px w500] #A2A2AA
+          [TEXT] Calories 113x16 -> "200 kcal ┬╖ planned" [Inter 13.0px w400] #777780
+          [TEXT] Macros or suggestion 316x13 -> "P 19g  ┬╖  C 22g  ┬╖  F 4g" [Inter 11.0px w400] #777780
+      [FRAME] Timeline meal 352x104
+        [FRAME] Timeline marker 20x104
+          [FRAME] circle-dashed 20x20
+            [VECTOR] Vector 16x16
+          [RECTANGLE] Timeline connector 1x76 #303036
+        [FRAME] Meal information 316x96
+          [FRAME] Meal metadata 316x12
+            [TEXT] Overline 38x12 -> "Dinner" [Inter 10.0px w600] #777780
+            [TEXT] Time 92x12 -> "07:30 PM ┬╖ planned" [Inter 10.0px w400] #777780
+          [TEXT] Meal name 316x19 -> "Salmon & quinoa greens" [Inter 16.0px w500] #A2A2AA
+          [TEXT] Calories 113x16 -> "640 kcal ┬╖ planned" [Inter 13.0px w400] #777780
+          [TEXT] Macros or suggestion 316x13 -> "P 44g  ┬╖  C 58g  ┬╖  F 26g" [Inter 11.0px w400] #777780
+    [FRAME] Primary button 352x56 #D6FF7F
+      [FRAME] send 20x20
+        [VECTOR] Vector 16x16
+      [TEXT] Label 180x17 -> "View WhatsApp Summary" [Inter 14.0px w700] #050505
+    [TEXT] Supporting text 352x34 -> "Planned meals arenΓÇÖt included in your totals. Only logged meals count." [Inter 11.0px w400] #777780
+  [FRAME] Bottom navigation 400x88 #0B0B0D
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 76x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 16x17
+        [TEXT] Tab label 29x12 -> "Home" [Inter 10.0px w600] #D6FF7F
+      [FRAME] Navigation tab 76x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 16x16
+        [TEXT] Tab label 44x12 -> "Log Meal" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x16
+        [TEXT] Tab label 42x12 -> "Progress" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 14x16
+        [TEXT] Tab label 31x12 -> "Profile" [Inter 10.0px w400] #A2A2AA
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3 #77777D
+
+============================================================
+SCREEN: AI Chat
+============================================================
+[FRAME] AI Chat 400x1084 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] arrow-left 24x24
+      [VECTOR] Vector 14x14
+    [FRAME] Header copy 260x47
+      [TEXT] Overline 133x12 -> "Your nutrition copilot" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Screen title 260x31 -> "GymBuddy AI" [Inter 26.0px w600] #F7F7F7
+    [FRAME] Header action 44x44
+      [FRAME] ellipsis 20x20
+        [VECTOR] Vector 13x1
+  [FRAME] Screen content 400x876
+    [FRAME] Assistant availability 352x13
+      [RECTANGLE] Online indicator 5x5 #D6FF7F
+      [TEXT] Status 234x13 -> "Personalized to your goals and todayΓÇÖs meals" [Inter 11.0px w400] #A2A2AA
+    [TEXT] Overline 88x12 -> "Today ┬╖ 01:02 PM" [Inter 10.0px w600] #A2A2AA
+    [FRAME] User message container 352x76
+      [FRAME] User message 282x76 #242426
+        [TEXT] Message 246x21 -> "How much protein did I eat today?" [Inter 14.0px w400] #F7F7F7
+        [TEXT] Time 24x11 -> "13:02" [Inter 9.0px w400] #777780
+    [FRAME] AI response 352x333 #19191C
+      [FRAME] Assistant label 95x16
+        [FRAME] sparkles 16x16
+          [VECTOR] Vector 13x13
+        [TEXT] Overline 71x12 -> "GymBuddy AI" [Inter 10.0px w600] #AC8CFF
+      [TEXT] Protein answer 180x51 -> "64g protein today" [Inter 42.0px w600] #F7F7F7
+      [TEXT] Supporting text 312x63 -> "ThatΓÇÖs 40% of your 160g goal. Your chicken bowl contributed 42g, and b" [Inter 14.0px w400] #F7F7F7
+      [RECTANGLE] Response divider 312x1 #303036
+      [TEXT] Supporting text 312x60 -> "You have 96g left. Try a protein-rich snack now and a balanced dinner " [Inter 13.0px w400] #A2A2AA
+      [TEXT] Source 312x12 -> "Based on your 2 logged meals ┬╖ 13:02" [Inter 10.0px w400] #777780
+    [FRAME] Conversation starters 352x171
+      [TEXT] Overline 166x12 -> "Keep the conversation going" [Inter 10.0px w600] #A2A2AA
+      [FRAME] Suggested prompt 352x45 #111113
+        [TEXT] Question 292x17 -> "What should I eat for dinner?" [Inter 12.0px w400] #A2A2AA
+        [FRAME] arrow-up-right 16x16
+          [VECTOR] Vector 6x6
+      [FRAME] Suggested prompt 352x45 #111113
+        [TEXT] Question 292x17 -> "How much protein did I eat today?" [Inter 12.0px w400] #A2A2AA
+        [FRAME] arrow-up-right 16x16
+          [VECTOR] Vector 6x6
+      [FRAME] Suggested prompt 352x45 #111113
+        [TEXT] Question 292x17 -> "Suggest a high-protein breakfast." [Inter 12.0px w400] #A2A2AA
+        [FRAME] arrow-up-right 16x16
+          [VECTOR] Vector 6x6
+    [FRAME] Chat composer 352x64 #111113
+      [TEXT] Input placeholder 240x16 -> "Ask about your nutritionΓÇª" [Inter 13.0px w400] #777780
+      [FRAME] mic 20x20
+        [VECTOR] Vector 11x16
+      [FRAME] Send message 44x44 #D6FF7F
+        [FRAME] arrow-up 20x20
+          [VECTOR] Vector 11x11
+    [TEXT] Supporting text 352x15 -> "AI guidance, not medical advice. Always review nutritional estimates." [Inter 10.0px w400] #777780
+  [FRAME] Bottom navigation 400x88 #0B0B0D
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 76x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 16x17
+        [TEXT] Tab label 29x12 -> "Home" [Inter 10.0px w600] #D6FF7F
+      [FRAME] Navigation tab 76x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 16x16
+        [TEXT] Tab label 44x12 -> "Log Meal" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x16
+        [TEXT] Tab label 42x12 -> "Progress" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 14x16
+        [TEXT] Tab label 31x12 -> "Profile" [Inter 10.0px w400] #A2A2AA
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3 #77777D
+
+============================================================
+SCREEN: Profile
+============================================================
+[FRAME] Profile 400x1169 #050505
+  [FRAME] Android status bar 400x44
+    [TEXT] Time 25x15 -> "9:41" [Inter 12.0px w600] #F7F7F7
+    [ELLIPSE] Camera cutout 10x10 #19191C
+    [FRAME] System indicators 58x18
+      [FRAME] wifi 14x14
+        [VECTOR] Vector 11x8
+      [FRAME] signal 14x14
+        [VECTOR] Vector 11x9
+      [FRAME] battery-full 18x18
+        [VECTOR] Vector 15x9
+  [FRAME] App header 400x76
+    [FRAME] Header copy 352x47
+      [TEXT] Overline 72x12 -> "Your profile" [Inter 10.0px w600] #A2A2AA
+      [TEXT] Screen title 352x31 -> "Built around you." [Inter 26.0px w600] #F7F7F7
+  [FRAME] Screen content 400x961
+    [FRAME] Profile identity 352x158
+      [RECTANGLE] Profile photograph 88x88
+      [TEXT] Name 166x34 -> "Arjun Mehta" [Inter 28.0px w600] #F7F7F7
+      [TEXT] Overline 208x12 -> "Build muscle ┬╖ member since Sep 2026" [Inter 10.0px w600] #D6FF7F
+    [FRAME] Body profile 352x89
+      [FRAME] Personal metric 112x89 #111113
+        [TEXT] Value 51x36 -> "78 kg" [Inter 30.0px w500] #F7F7F7
+        [TEXT] Label 37x13 -> "Weight" [Inter 11.0px w400] #A2A2AA
+      [FRAME] Personal metric 112x89 #111113
+        [TEXT] Value 70x36 -> "180 cm" [Inter 30.0px w500] #F7F7F7
+        [TEXT] Label 35x13 -> "Height" [Inter 11.0px w400] #A2A2AA
+      [FRAME] Personal metric 112x89 #111113
+        [TEXT] Value 55x36 -> "28 yrs" [Inter 30.0px w500] #F7F7F7
+        [TEXT] Label 21x13 -> "Age" [Inter 11.0px w400] #A2A2AA
+    [FRAME] Primary button 352x56 #D6FF7F
+      [FRAME] pencil 20x20
+        [VECTOR] Vector 16x16
+      [TEXT] Label 75x17 -> "Edit Profile" [Inter 14.0px w700] #050505
+    [FRAME] Profile preferences 352x470
+      [TEXT] Overline 133x12 -> "Preferences & settings" [Inter 10.0px w600] #A2A2AA
+      [FRAME] Card 352x442 #111113
+        [FRAME] Settings row 336x71
+          [FRAME] target 20x20
+            [VECTOR] Vector 16x16
+          [FRAME] Setting description 248x35
+            [TEXT] Title 93x17 -> "Nutrition Goal" [Inter 14.0px w500] #F7F7F7
+            [TEXT] Value 248x13 -> "2,600 kcal ┬╖ Build muscle" [Inter 11.0px w400] #777780
+          [FRAME] chevron-right 16x16
+            [VECTOR] Vector 4x8
+        [FRAME] Settings row 336x71
+          [FRAME] phone 20x20
+            [VECTOR] Vector 16x16
+          [FRAME] Setting description 248x35
+            [TEXT] Title 127x17 -> "WhatsApp Number" [Inter 14.0px w500] #F7F7F7
+            [TEXT] Value 248x13 -> "+91 98765 43210" [Inter 11.0px w400] #777780
+          [FRAME] chevron-right 16x16
+            [VECTOR] Vector 4x8
+        [FRAME] Settings row 336x71
+          [FRAME] bell 20x20
+            [VECTOR] Vector 15x16
+          [FRAME] Setting description 224x35
+            [TEXT] Title 86x17 -> "Notifications" [Inter 14.0px w500] #F7F7F7
+            [TEXT] Value 224x13 -> "Meal reminders & daily insights" [Inter 11.0px w400] #777780
+          [FRAME] Notifications enabled 40x24 #D6FF7F
+            [ELLIPSE] Toggle thumb 18x18 #050505
+        [FRAME] Settings row 336x71
+          [FRAME] moon 20x20
+            [VECTOR] Vector 14x14
+          [FRAME] Setting description 248x35
+            [TEXT] Title 47x17 -> "Theme" [Inter 14.0px w500] #F7F7F7
+            [TEXT] Value 248x13 -> "Midnight ┬╖ Dark" [Inter 11.0px w400] #777780
+          [FRAME] chevron-right 16x16
+            [VECTOR] Vector 4x8
+        [FRAME] Settings row 336x71
+          [FRAME] shield-check 20x20
+            [VECTOR] Vector 13x16
+          [FRAME] Setting description 248x35
+            [TEXT] Title 50x17 -> "Privacy" [Inter 14.0px w500] #F7F7F7
+            [TEXT] Value 248x13 -> "Your data, your control" [Inter 11.0px w400] #777780
+          [FRAME] chevron-right 16x16
+            [VECTOR] Vector 4x8
+        [FRAME] Settings row 336x71
+          [FRAME] info 20x20
+            [VECTOR] Vector 16x16
+          [FRAME] Setting description 248x35
+            [TEXT] Title 118x17 -> "About GymBuddy" [Inter 14.0px w500] #F7F7F7
+            [TEXT] Value 248x13 -> "Version 1.0.0" [Inter 11.0px w400] #777780
+          [FRAME] chevron-right 16x16
+            [VECTOR] Vector 4x8
+    [FRAME] Brand footer 352x44
+      [TEXT] Wordmark 95x19 -> "GYMBUDDY" [Inter 16.0px w700] #A2A2AA
+      [TEXT] Supporting text 352x17 -> "Your AI Nutrition & Calorie Tracker" [Inter 11.0px w400] #777780
+  [FRAME] Bottom navigation 400x88 #0B0B0D
+    [FRAME] Tabs 400x68
+      [FRAME] Navigation tab 76x68
+        [FRAME] house 22x22
+          [VECTOR] Vector 16x17
+        [TEXT] Tab label 28x12 -> "Home" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] scan-line 22x22
+          [VECTOR] Vector 16x16
+        [TEXT] Tab label 44x12 -> "Log Meal" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] chart-no-axes-combined 22x22
+          [VECTOR] Vector 18x16
+        [TEXT] Tab label 42x12 -> "Progress" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] clock-3 22x22
+          [VECTOR] Vector 18x18
+        [TEXT] Tab label 34x12 -> "History" [Inter 10.0px w400] #A2A2AA
+      [FRAME] Navigation tab 76x68
+        [FRAME] user-round 22x22
+          [VECTOR] Vector 14x16
+        [TEXT] Tab label 32x12 -> "Profile" [Inter 10.0px w600] #D6FF7F
+    [FRAME] Gesture area 400x20
+      [RECTANGLE] Gesture handle 108x3 #77777D
